@@ -1,7 +1,7 @@
 engines:
   structure:
     enabled: true
-    channel: "go-beta"
+    channel: go-beta
   duplication:
     enabled: true
     channel: go-beta
