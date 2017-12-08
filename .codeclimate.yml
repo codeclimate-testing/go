@@ -6,5 +6,5 @@ engines:
     config:
       languages:
         go:
-          concurreny: 1
+          concurrency: 1
           mass_threshold: 30
