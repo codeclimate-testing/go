@@ -4,8 +4,8 @@ engines:
   duplication:
     enabled: true
     config:
+      concurrency: 1
+      debug: true
       languages:
         go:
-          concurrency: 1
-          debug: true
           mass_threshold: 30
