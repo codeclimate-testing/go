@@ -4,8 +4,20 @@ engines:
   duplication:
     enabled: true
     config:
-      concurrency: 1
       debug: true
       languages:
         go:
           mass_threshold: 30
+exclude_paths:
+- "**/*_test.go"
+- config/
+- db/
+- dist/
+- features/
+- "**/node_modules/"
+- script/
+- "**/spec/"
+- "**/test/"
+- "**/tests/"
+- "**/vendor/"
+- "**/*.d.ts"
